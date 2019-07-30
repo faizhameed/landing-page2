@@ -245,6 +245,9 @@ text-align: center;
     line-height: 1.31;
     letter-spacing: normal;
     color: #000000;
+    position: relative;
+    text-align: left;
+    left: 13%;
 }
 .testimonial>p{
     position: relative;
