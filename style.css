@@ -107,9 +107,11 @@
     color: #909090;
 }
 .btn1{
-    margin-top: 20px;
+margin-top: 20px;
 display:inline-flex;
 border:none;
+top: 156.9px;
+position: relative;
 text-align: center;
 }
 .btn1>button{
