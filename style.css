@@ -146,3 +146,21 @@ text-align: center;
     box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
     background-color: #bebebe;
 }
+
+.companylogo{
+    display: flex;
+    position: absolute;
+    height: 62px;
+    top: 1145.2px;
+    left: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.companylogo>img{
+    position: relative;
+    display: block;
+    left: -50%;
+    height: 62px;
+     width:auto;
+}
