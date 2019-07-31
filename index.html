@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Corefactor Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.scss">
 </head>
@@ -13,14 +15,18 @@
            <ul class="mainul">
                <li class="ism">ISM</li>
                <li class="pricing">Pricing</li>
-               <li><img class="fbicon" src = './assets/facebook-square.svg' alt = 'facebook'></li>
-               <li><img class="lnicon" src = './assets/linkedin-logo.svg' alt = 'linkedin'></li>
-               <li><img class="instaicon" src = './assets/instagram.svg' alt = 'instagram'></li>
-               <li id = "trytele"class="trytele">Try Teleduce</li>
-               <li class="blog">Blog</li>
-               <li class="contact">Contact Us</li>
-               <li class="signup">Sign up</li>
-               <li class="login">Login</li>
+               <div class="iconSocial">
+                   <li><img class="fbicon" src = './assets/facebook-square.svg' alt = 'facebook'></li>
+                   <li><img class="lnicon" src = './assets/linkedin-logo.svg' alt = 'linkedin'></li>
+                   <li><img class="instaicon" src = './assets/instagram.svg' alt = 'instagram'></li>
+               </div>
+               <div class="right-nav">
+                <li id = "trytele"class="trytele">Try Teleduce</li>
+                   <li class="blog">Blog</li>
+                   <li class="contact">Contact Us</li>
+                   <li class="signup">Sign up</li>
+                   <li class="login">Login</li>
+               </div>
            </ul>
        </nav>
    </header>
@@ -70,8 +76,12 @@
             <input type="checkbox" name="mailupdates" id="mailUpdates">
             <p class="u1p">Get Updates Via Mail.</p>
         </div>
-        <button class="registerbtn">Register</button>
-        <p class="tos">By creating an account, you agree to the Terms of Service.</p>
+        <div style="
+        position: relative;
+        top: 10%;">
+            <button class="registerbtn">Register</button>
+            <p class="tos">By creating an account, you agree to the Terms of Service.</p>
+        </div>
         </div>
     </div>
 </body>
