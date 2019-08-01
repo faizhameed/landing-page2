@@ -404,6 +404,8 @@ text-align: center;
     line-height: 1.35;
     letter-spacing: normal;
     color: #3ea868;
+    position: relative;
+    top: -4px;
   }
   p{
       border:0px;
@@ -508,6 +510,9 @@ text-align: center;
 }
 .Rectangle-47 p{
     font-size: 1.1vw;
+}
+a{
+    cursor: pointer;
 }
 @media only screen and (max-width: 1550px){
     .Rectangle-47 div{
