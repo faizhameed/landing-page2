@@ -77,6 +77,31 @@ body{
     padding:0px 10px;
 }
 
+.bgi1{
+    position: absolute;
+    top: -247%;
+    right: -17%;
+    height: 592%;
+    width: 121%;
+    z-index: -1;
+}
+
+.bgi2{
+    position: absolute;
+    top: 0;
+    right: -6%;
+    height: 592%;
+    width: 121%;
+    z-index: -1; 
+}
+.bgi3{
+    position: absolute;
+    top: 0;
+    right: -6%;
+    height: 592%;
+    width: 121%;
+    z-index: -1; 
+}
 
 .main{
     position: relative;
