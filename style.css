@@ -76,24 +76,7 @@ body{
 .right-nav>li{
     padding:0px 10px;
 }
-/* .blog{
-    position: absolute;
-    left: 80.6%;
-}
-.contact{
-    position: absolute;
-    left: 85.6%;
-}
 
-.signup{
-    position: absolute;
-    left:92%;
-}
-
-.login{
-    position: absolute;;
-    left: 97%;
-} */
 
 .main{
     position: relative;
@@ -414,7 +397,7 @@ text-align: center;
   }
   .pinside{
     font-family: Roboto;
-    font-size: 17px;
+    font-size: 1.1vw;
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -461,7 +444,7 @@ text-align: center;
 
 .inp3{
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -473,13 +456,13 @@ text-align: center;
     background-color: #3ea868;
     position: relative;
     top: 170px;
-    padding: 3px 18px 3px;
+    padding: 3px 0px;
     width: 50%;
     margin: 0 auto;
 }
 .inp4{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -492,14 +475,47 @@ text-align: center;
 
 .inp5{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.33;
+    line-height: 1.7;
     letter-spacing: normal;
     text-align: center;
     color: #4e4e4e;
     position: relative;
     top: 192px;
 }
+
+
+.Rectangle-47{
+    display: flex;
+    background-color: lightgrey;
+    position: relative;
+    top: 1559px;
+    height: 447px;
+    justify-content: center;
+}
+.Rectangle-47 div{
+    position: relative;
+    top: 15%;
+    padding: 0px 5%;
+}
+
+.Rectangle-47 div h5{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+.Rectangle-47 p{
+    font-size: 1.1vw;
+}
+@media only screen and (max-width: 1550px){
+    .Rectangle-47 div{
+        top: 20%;
+    }
+   }
+   @media only screen and (max-width: 1350px){
+    .Rectangle-47 div{
+        top: 25%;
+    }
+   }
