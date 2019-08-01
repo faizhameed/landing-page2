@@ -9,10 +9,45 @@
 }
 body{
      font-family: HelveticaNeue;
-
      margin: 0 auto; 
      overflow-x:hidden;
+     height: 0px;
 }
+#navbar {
+    background-color: rgb(255, 255, 255); /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .navShadow{
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px
+  }
+  
+
+  html::-webkit-scrollbar {
+    width: .5em;
+  }
+  
+  html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(172, 202, 241, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(119, 89, 89, 0.3);
+  }
+  
+  html::-webkit-scrollbar-thumb {
+  background-color: #0092dd;
+  outline: 1px solid rgb(23, 31, 141);
+  border-radius: 10px;
+  }
+  html::-webkit-scrollbar-thumb:window-inactive {
+      background: rgba(255,0,0,0.4); 
+  }
+
 .mainmenu{
     display: flex;
     position: relative;
@@ -21,7 +56,7 @@ body{
    width:189px;
    height: 44px;
    margin:5px;
-
+   margin: 9px 59px 3px 19px;
 }
 .mainul{
     width: 100%;;
@@ -372,7 +407,8 @@ text-align: center;
   .section4{
       position: relative;
       top: 1560px;
-      text-align: center;   
+      text-align: center;
+      padding-top: 45px;   
   }
 
   /* Section 4 */
@@ -539,6 +575,21 @@ text-align: center;
 a{
     cursor: pointer;
 }
+.Rectangle-48{
+    background-color: #000000;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 1550px;
+}
+
+.rect48{
+    font-size: 1vm;
+    position: relative;
+    top: 33%;
+}
+
 @media only screen and (max-width: 1550px){
     .Rectangle-47 div{
         top: 20%;
