@@ -596,8 +596,10 @@ a{
 
 .rect48{
     font-size: 1vm;
+    font-family: Roboto;
     position: relative;
     top: 33%;
+    left:30px;
 }
 
 @media only screen and (max-width: 1550px){
