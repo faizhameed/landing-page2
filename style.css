@@ -124,7 +124,7 @@ body{
 .bgi2{
     position: absolute;
     top: 0;
-    right: -6%;
+    right: -9%;
     height: 592%;
     width: 121%;
     z-index: -1; 
@@ -136,6 +136,16 @@ body{
     height: 592%;
     width: 121%;
     z-index: -1; 
+}
+
+.trees{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    right:2%;
+}
+.trees>img{
+    padding: 0px 15px;
 }
 
 .main{
