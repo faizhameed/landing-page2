@@ -75,7 +75,7 @@ html::-webkit-scrollbar {
 }
 .mainul{
     position: relative;
-   top:-60px;
+   top:-54px;
    right: 10px; 
 }
 
@@ -154,12 +154,12 @@ html::-webkit-scrollbar {
         left:0px;       
     }
     .slide{
-        height: 25vw;
+        height: 55vw;
     }
 
     .customer-logos{
     position: relative;
-    top: 593px;
+    top: 550px;
 
     }
 
@@ -170,6 +170,66 @@ html::-webkit-scrollbar {
         display: flex;
         overflow: hidden;
         height: 16vw;
+    }
+    .group20{
+        position: relative;
+        top: 481px;
+        height: 20vw;
+       overflow: hidden;
+    }
+    .bgi2{
+        height: 20vw;
+       position: relative;
+       left: -10px;
+    }
+    .crAcc{
+        position: relative;
+        top: 600px;
+        text-align: center;
+        background-color: rgba(211, 211, 211, 0.5);
+        padding: 10px;
+    }
+    .crAcc h3{
+        font-family: roboto;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+        color: #4e4e4e;
+    }
+    .crAccform{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 10px 15%;
+    }
+    .crAccform>input{
+        margin: 0 auto;
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        margin: 10px 5px 10px 5px;
+        padding-left: 10px;
+        background-color: #bebebe;
+    }
+    ::placeholder{
+        color: black;
+        font-family: Roboto;
+        text-align: center;
+        font-size: 16px;
+      
+        font-weight: normal;
+      
+        font-style: normal;
+      
+        font-stretch: normal;
+      
+        line-height: 1.31;
+      
+        letter-spacing: 0.32px;
     }
    /*  .companylogo>img{
         position: relative;
