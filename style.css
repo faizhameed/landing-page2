@@ -211,17 +211,17 @@ html::-webkit-scrollbar {
         left: -10px;
         display: flex;
         overflow: hidden;
-        height: 16vw;
+        height: 83px;
     }
     .group20{
         position: absolute;
         width: 100%;
         top: 611px;
-        height: 20vw;
+        height: 100px;
         overflow: hidden;
     }
     .bgi2{
-        height: 20vw;
+        height: 100px;
        position: relative;
        left: -10px;
     }
