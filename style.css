@@ -49,6 +49,7 @@ html::-webkit-scrollbar {
     height: 17px;
     position: relative;
     left: -5px;
+    top: -2px;
 }
 .navbar-light .navbar-toggler {
    color: rgba(0,0,0,.5);
@@ -66,6 +67,12 @@ html::-webkit-scrollbar {
 
 }
 
+.bg-light {
+    z-index: 1;
+}
+.show{
+    width: 50%;
+}
 .hamburger-menu{
     position: relative;
     display: block;
@@ -166,6 +173,10 @@ html::-webkit-scrollbar {
         box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
         background-color: #bebebe;
     }
+    .logos-company{
+        position: absolute;
+        top: 84px;
+    }
 
     .companylogo{
         display: flex;
@@ -180,24 +191,25 @@ html::-webkit-scrollbar {
     }
 
     .customer-logos{
-    position: relative;
-    top: 550px;
+    position: absolute;
+    top: 650px;
 
     }
 
     .trees{
-        position: relative;
-        top: 550px;
+        position: absolute;
+        top: 618px;
         left: -10px;
         display: flex;
         overflow: hidden;
         height: 16vw;
     }
     .group20{
-        position: relative;
-        top: 481px;
+        position: absolute;
+        width: 100%;
+        top: 611px;
         height: 20vw;
-       overflow: hidden;
+        overflow: hidden;
     }
     .bgi2{
         height: 20vw;
@@ -205,8 +217,8 @@ html::-webkit-scrollbar {
        left: -10px;
     }
     .crAcc{
-        position: relative;
-        top: 600px;
+        position: absolute;
+        top: 815px;
         text-align: center;
         background-color: rgba(211, 211, 211, 0.5);
         padding: 10px;
@@ -252,6 +264,48 @@ html::-webkit-scrollbar {
         line-height: 1.31;
       
         letter-spacing: 0.32px;
+    }
+
+    .u1{
+        display:flex;
+        width: 100%;
+        justify-content:center;
+        position: relative;
+        top: 5%;
+    }
+    .ulp{
+        display: block;
+        position: relative;
+        margin: 0px;
+        left: 20%;
+        font-family: 'Roboto', sans-serif;
+        height: 15px;
+        font-size: 10px; 
+        font-weight: 500; 
+        font-style: normal;  
+        font-stretch: normal;  
+        line-height: 1.25;  
+        letter-spacing: normal;   
+        color: #4e4e4e;
+    }
+    
+      #mailUpdates{
+        display: block;
+        position: relative;
+        margin: 0px;
+        margin-top: 6px;
+        right: 10px;
+      }
+
+      .registerbtn{
+        background-color: black;
+        border:none;
+        top:75%;
+        color: white;
+        width: 45%;
+        height: 31px;
+        border-radius:4px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     }
    /*  .companylogo>img{
         position: relative;
