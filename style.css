@@ -86,9 +86,15 @@ html::-webkit-scrollbar {
     background-color: rgba(190, 190, 190, 0.19);
     cursor: pointer;
 }
+.social-icons{
+    display: flex;
+}
+.social-icons li{
+    margin: 5px 5px;
+}
 .login{
     list-style-type: none;
-    position: relative;
+    position: absolute;
     float: right;
     cursor: pointer;
     font-family: HelveticaNeue;
@@ -99,6 +105,9 @@ html::-webkit-scrollbar {
     line-height: 1.13;
     letter-spacing: normal;
     color: #bebebe;
+    z-index: 2;
+    top: 33px;
+    right: 15px;
 }
 .mainul{
     position: relative;
@@ -517,4 +526,5 @@ html::-webkit-scrollbar {
             width: 59%;
     }
 }
-    /* MOBILE CSS ENDS HERE */
+    /* MOBILE CSS which is common on Desktop ENDS HERE */
+
