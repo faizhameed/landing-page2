@@ -6,7 +6,17 @@ const scrollHandle=()=>{
 }
 
 window.addEventListener("scroll",scrollHandle)
+/* var docWidth = document.documentElement.offsetWidth;
 
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+ */
 /* var interval = setInterval(function() {
           // method to be executed;
           console.log("faiz");

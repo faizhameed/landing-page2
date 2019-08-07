@@ -122,3 +122,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.manipal,.goodrej,.pedlite,.wipro,.ujivan{
+    height: 81px;
+    width: auto;
+}

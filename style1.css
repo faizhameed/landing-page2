@@ -493,6 +493,11 @@ display: none;
         color: #4e4e4e;
         margin: 30px 15px 10px 30px;
     }
+    p{
+        margin: 0;
+        padding: 0;
+        
+    }
     .testimonial>img{
         position: absolute;
     }
