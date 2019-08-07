@@ -145,7 +145,7 @@ html::-webkit-scrollbar {
         display: block;
         margin: 15px auto;
         font-family: HelveticaNeue;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 500;
         font-style: normal;
         font-stretch: normal;
@@ -162,7 +162,7 @@ html::-webkit-scrollbar {
         border:none;
         margin: 15px auto;
         display: block;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 500;
         font-style: normal;
         font-stretch: normal;
