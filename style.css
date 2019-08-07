@@ -513,7 +513,7 @@ html::-webkit-scrollbar {
     }
     /* Iphone 5 */
     
-    @media (min-width: 320px) and (max-width: 370px) {
+    @media (min-width: 320px) and (max-width: 350px) {
         .logo {
             top: 7px;
             left: 24px;
