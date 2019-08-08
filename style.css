@@ -92,6 +92,9 @@ html::-webkit-scrollbar {
 .social-icons li{
     margin: 5px 5px;
 }
+ul h5{
+    margin-top: 33px;
+}
 .login{
     list-style-type: none;
     position: absolute;
@@ -511,7 +514,7 @@ html::-webkit-scrollbar {
         position: relative;
         min-height: 100%;
     }
-
+/* ************************************************display none here************************************************************************************* */
     .tree650{
         display: none;
     }
@@ -519,6 +522,20 @@ html::-webkit-scrollbar {
     .companylogo{
         display: none;
     }
+
+    .maintitle h2{
+        display: none;
+    }
+   .testiCreateAcc .picture,.inverted1,.inverted2,.inp1,.inp4,.inp5,.seedimg2{
+        display: none;
+    }
+    .Rectangle-47,.logo990px{
+        display: none;
+    }
+/* *********************************************************************************************************************************************************************************** */
+   
+   
+   
     /* Iphone 5 */
     
     @media (min-width: 320px) and (max-width: 350px) {
@@ -592,7 +609,7 @@ html::-webkit-scrollbar {
                     .companylogo{
                         display: flex;
                         position: absolute;
-                        top: 727px;
+                        top: 733px;
                         background-position: center;
                         background-size: cover;
                         overflow: hidden;
@@ -607,9 +624,294 @@ html::-webkit-scrollbar {
                          margin-left: 20px;
                     }
                     @media (min-width:825px){
-
-
+                        .maintitle h1{
+                            font-size:36px;
+                        }
+                        .maintitle h2{
+                            display: block;
+                            position: relative;
+                            top:110px;
+                            font-family: HelveticaNeue;
+                            font-size: 15px;
+                            font-weight: bolder;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1;
+                            letter-spacing: 0.11px;
+                            text-align: center;
+                            color: #909090;
+                        }
+                        .crAccform{
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        }
+                        .crAccform input{
+                            width:46%;
+                            margin: 10px 2%;
+                        }
+                        .testimonial {
+                            top: 1200px;
+                            width: 50%;
+                            left: 50%;
+                            margin-right: 10%;
+                        }
+                        .testimonial h2{
+                            font-family: Roboto;
+                            font-size: 19px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.32;
+                            color: #000000;
+                        }
+                        .testiCreateAcc{
+                            display:flex;
+                            width: 100%;
+                        }
+                        .testiCreateAcc .picture{
+                            position: absolute;
+                            display: block;
+                            top: 1200px;
+                            margin-left: 10%;
+                        }
+                        .section4{
+                            top: 1450px;
+                        }
+                        .inverted1{
+                            display: block;
+                            position: absolute;
+                            top: 1%;
+                            left: -1%
+                          
+                        }
+                        .inverted2{
+                            display: block;
+                            position: absolute;
+                            top: 100%;
+                            left: 81%;
+                        }
+                        .figure{
+                            background-color: white;
+                            color: black;
+                            height: 370px;
+                        }
+                        .inp1,.inp4,.inp5{
+                            display: block;
+                        }
+                        .inp1{
+                            font-family: Roboto;
+                            font-size: 8px;
+                            font-weight: 300;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.22;
+                            letter-spacing: normal;
+                            color: #4e4e4e;
+                            position: relative;
+                            top: 116px;
+                            left: 45%;
+                            width: 50%;
+                        }
+                        .inp4{
+                            font-family: Roboto;
+                            font-size: 10px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.17;
+                            letter-spacing: normal;
+                           color: #000000;
+                           position: relative;
+                            top: 62px;
+                        }
                         
+                        .inp5{
+                            font-family: Roboto;
+                            font-size: 10px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.7;
+                            letter-spacing: normal;
+                            text-align: center;
+                            color: #4e4e4e;
+                            position: relative;
+                            top: 45px;
+                        }
+                        .inp3{
+                            top:66px;
+                        }
+                        .inp2{
+                            top:75px;
+                        }
+                        .seedimg {
+                            top: 27px;
+                            left: -11%;
+                        }
+                        .seedimg2 {
+                            display:block;
+                            position: relative;
+                            top: 19px;
+                            width: 60px;
+                            left: 45%;
+                        }
+                        .sproutimg {
+                            position: relative;
+                            top: 25px;
+                            width: 71px;
+                        }
+                        .treesimg{
+                            top: 30px;
+                             width: 77px;
+                        }
+                        .asc{
+                            display: none;
+                        }
+                        .Rectangle-47{
+                            display: block;
+                        }
+                        .Rectangle-47{
+                            display: flex;
+                            position: relative;
+                            justify-content: center;
+                        }
+                        .Rectangle-47 div{
+                            position: relative;
+                            top: 15%;
+                            padding: 0px 5%;
+                        }
+                        
+                        .Rectangle-47 div h5{
+                            font-weight: bolder;
+                            font-size: 12px;
+                        }
+                        .Rectangle-47 p{
+                            font-size:11px;
+                        }
+                        a{
+                            cursor: pointer;
+                        }
+                        @media (min-width:992px){
+                            .Rectangle-47 div h5{
+                                font-weight: bolder;
+                                font-size: 18px;
+                            }
+                            .Rectangle-47 p{
+                                font-size:15px;
+                            }
+                            .logo990px {
+                                display: block;
+                                position: absolute;
+                                top: 4px;
+                                left: 10px;
+                                z-index: 1;
+                            }
+                            .login{
+                                font-size: 16px;
+                                top: 25px;
+                            }
+                            nav h5{
+                                display: none;
+                            }
+                            nav ul{ 
+                             margin-left: 46%;
+                            }
+                            nav .social-icons{
+                                    position: relative;
+                                    right: 100%;
+                            }
+                            .btn1{
+                                align-items: center;
+                                justify-content: center;
+                                display:inline-flex;
+                                border:none;
+                                text-align: center;
+                                margin:20px auto 0px auto;
+                                }
+                                .btn1>button{
+                                    cursor:pointer;
+                                }
+                            .btn1create{
+                                width: auto;
+                                border-radius: 5px;
+                                padding: 10px 28px 10px 28px;
+                                margin:0px 9px 0px 9px;
+                                border: none;
+                                display: block;
+                                font-family: HelveticaNeue;
+                                font-size: 19px;
+                                font-weight: 500;
+                                font-style: normal;
+                                font-stretch: normal;
+                                line-height: 1.26;
+                                letter-spacing: normal;
+                                color: #ffffff;
+                                background-color: #c400ff;
+                                box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
+                            }
+                            .btn1reqdemo{
+                                border-radius: 5px;
+                                padding: 10px 28px 10px 28px;
+                                border:none;
+                                margin:0px 9px 0px 9px;
+                                display: block;
+                                font-size: 19px;
+                                font-weight: 500;
+                                font-style: normal;
+                                font-stretch: normal;
+                                line-height: 1.26;
+                                letter-spacing: normal;
+                                font-family: HelveticaNeue;
+                                color: white;
+                                box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
+                                background-color: #bebebe;
+                                width: auto;
+                            }
+                            .group20{
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                top: 593px;
+                            }
+                            .bgi2 {                              
+                                left: 0px;
+                            }
+                            .trees {
+                                top: 600px;                        
+                                width: 100%;
+                                justify-content: center;
+                            }
+                            .tree, .tree650 {
+                                margin: 0px 10px;
+                            }
+                            .companylogo{
+                                top: 724px;
+                                justify-content: center;
+                            }
+
+                            @media (min-width:1250px){
+                                footer {
+                                    top: 2100px;
+                                }
+                            #navbar {
+                                background-color: rgb(255, 255, 255); /* Black background color */
+                                position: fixed !important; /* Make it stick/fixed */
+                                top: 0; /* Stay on top */
+                                width: 100%; /* Full width */
+                                transition: top 0.3s; /* Transition effect when sliding down (and up) */
+                                z-index: 1;
+                                transition: 0.5s;
+                              }
+                              #navbar li{
+                                display: block;
+                                }
+                              .navShadow{
+                                -webkit-box-shadow: 0 8px 6px -6px #999;
+                                -moz-box-shadow: 0 8px 6px -6px #999;
+                                box-shadow: 0 8px 6px -6px
+                              }
+                            }
+                        }
                     }
                 }
             }
