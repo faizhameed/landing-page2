@@ -133,8 +133,8 @@ html::-webkit-scrollbar {
     line-height: 1.23;
     position: relative;
     top: 100px;
-    width: 90%;
-    left: 21px;
+    width: 100%;
+    margin: 0 auto;
 }
 .btn1{
     width: 100%;
@@ -208,10 +208,10 @@ html::-webkit-scrollbar {
     .trees{
         position: absolute;
         top: 618px;
-        left: -10px;
         display: flex;
         overflow: hidden;
         height: 83px;
+        width: 100%;
     }
     .group20{
         position: absolute;
@@ -511,6 +511,14 @@ html::-webkit-scrollbar {
         position: relative;
         min-height: 100%;
     }
+
+    .tree650{
+        display: none;
+    }
+
+    .companylogo{
+        display: none;
+    }
     /* Iphone 5 */
     
     @media (min-width: 320px) and (max-width: 350px) {
@@ -528,3 +536,82 @@ html::-webkit-scrollbar {
 }
     /* MOBILE CSS which is common on Desktop ENDS HERE */
 
+    @media (min-width: 525px){
+        .logo{
+            right:25%;
+        }
+        .tree{
+        margin:0 auto;
+        }
+        .trees{
+            left:0px;
+        }
+        .figure {
+            width: 35%;
+            height: 202px;
+        }
+        .slick-slider{
+            left:0px;
+            margin-left: 20px;
+        }
+        @media (min-width: 651px){
+            .tree650{
+                display: block;
+            }
+            .logo{
+                right:30%;
+            }
+            .figure {
+                width: 30%;
+                height: 210px;
+            }
+            footer {
+                top: 1967px;
+            }
+            .slick-slider{
+                left:15%;
+            }
+            @media (min-width: 725px){
+                .slick-slider{
+                    left:19%;
+                }
+                .logo {
+                    right: 60%;
+                }
+
+                @media (min-width:751px) {
+                    .logos-company {
+                        display: none;
+                    }
+                    .companylogo{
+                        display: block;
+                    }
+                    .logo {
+                        right: 68%;
+                    }
+                    .companylogo{
+                        display: flex;
+                        position: absolute;
+                        top: 727px;
+                        background-position: center;
+                        background-size: cover;
+                        overflow: hidden;
+                        width: 100%;
+                    }
+                    
+                    .companylogo>img{
+                        position: relative;
+                        display: block;
+                        height:6vw;
+                         width:auto;
+                         margin-left: 20px;
+                    }
+                    @media (min-width:825px){
+
+
+                        
+                    }
+                }
+            }
+        }
+    }
