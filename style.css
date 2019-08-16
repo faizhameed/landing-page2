@@ -34,7 +34,31 @@ html::-webkit-scrollbar {
   html::-webkit-scrollbar-thumb:window-inactive {
       background: rgba(255,0,0,0.4); 
   }
-
+  #bgst{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .tribg{
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    width: 52%;
+    transform: rotate(-202deg);
+    opacity: .6;
+    z-index: -1;
+  }
+  .sqbg{
+    position: absolute;
+    left: 7%;
+    top: 43%;
+    width: 22%;
+    transform: rotate(-202deg);
+    opacity: .6;
+    z-index: -1;
+  }
   .logo{
     position: relative;
     display: block;
@@ -127,7 +151,7 @@ ul h5{
     width: 100%;
     margin: 0 auto;  
     position: absolute;
-    top: 160.7px
+    top: 100.7px
 }
 .maintitle h1{
     font-weight: bolder;
@@ -367,7 +391,67 @@ ul h5{
         text-align: center;
         margin-top: 30px;
     }
-  
+    #bgst1{
+        position: absolute;
+        width: 93%;
+        top: 100px;
+        height: 100%;
+        overflow: hidden;           
+    }
+    #bgst1 img{
+        position: absolute;
+        opacity: .6;
+        z-index: -1;
+    }
+    .sqbg1{
+        width: 140.4px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: 68%;
+        top: -9%;
+    }
+    .sqbg2{
+        width: 140.4px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: -18%;
+        top: 57%;
+    }
+    .sqbg3{
+        width: 63.4px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: 90%;
+        top: 51%;
+    }
+    .sqbg4{
+        width: 70.2px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: 27%;
+        top: -1%;
+    }
+    .sqbg5{
+        width: 35px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: -4%;
+        top: 1%;
+    }
+    .cirbg1{
+        width: 69.2px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: 75%;
+        top: 61%;
+    }
+    .cirbg2{
+        width: 69.2px;
+        height: 213.3px;
+        transform: rotate(45deg);
+        left: -4%;
+        top: 10%;
+    }
     /* Section 4 */
 
     /* .planfigure+ */.h1section4{
@@ -532,6 +616,9 @@ ul h5{
     .Rectangle-47,.logo990px{
         display: none;
     }
+    .maintitleTab{
+        display: none;
+    }
 /* *********************************************************************************************************************************************************************************** */
    
    
@@ -624,13 +711,32 @@ ul h5{
                          margin-left: 20px;
                     }
                     @media (min-width:825px){
+                        /* displaying the secondary heading here */
                         .maintitle h1{
-                            font-size:36px;
+                            display: none;     
+                        }
+                        .maintitleTab{
+                           display:flex;
+                           font-size: 36px;
+                           
+                           font-style: normal;
+                           font-stretch: normal;
+                           line-height: 1.22;
+                           letter-spacing: normal;
+                           position: absolute;
+                           top: 200px;
+                           width: 100%;
+                           justify-content: center;
+                        }
+                        .maintitleTab h1{
+                            text-align: center;
+                            font-weight: bolder;
+                           font-family: Roboto;
                         }
                         .maintitle h2{
                             display: block;
                             position: relative;
-                            top:110px;
+                            top:173px;
                             font-family: HelveticaNeue;
                             font-size: 15px;
                             font-weight: bolder;
@@ -640,6 +746,53 @@ ul h5{
                             letter-spacing: 0.11px;
                             text-align: center;
                             color: #909090;
+                        }
+                        .btn1{
+                            align-items: center;
+                            justify-content: center;
+                            display:inline-flex;
+                            border:none;
+                            text-align: center;
+                            margin:20px auto 0px auto;
+                            }
+                            .btn1>button{
+                                cursor:pointer;
+                            }
+                        .btn1create{
+                            width: auto;
+                            border-radius: 5px;
+                            padding: 10px 28px 10px 28px;
+                            margin:0px 9px 0px 9px;
+                            border: none;
+                            display: block;
+                            font-family: HelveticaNeue;
+                            font-size: 19px;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.26;
+                            letter-spacing: normal;
+                            color: #ffffff;
+                            background-color: #c400ff;
+                            box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
+                        }
+                        .btn1reqdemo{
+                            border-radius: 5px;
+                            padding: 10px 28px 10px 28px;
+                            border:none;
+                            margin:0px 9px 0px 9px;
+                            display: block;
+                            font-size: 19px;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.26;
+                            letter-spacing: normal;
+                            font-family: HelveticaNeue;
+                            color: white;
+                            box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
+                            background-color: #bebebe;
+                            width: auto;
                         }
                         .crAccform{
                             flex-direction: row;
@@ -888,29 +1041,73 @@ ul h5{
                                 top: 724px;
                                 justify-content: center;
                             }
-
-                            @media (min-width:1250px){
-                                footer {
-                                    top: 2100px;
-                                }
-                            #navbar {
-                                background-color: rgb(255, 255, 255); /* Black background color */
-                                position: fixed !important; /* Make it stick/fixed */
-                                top: 0; /* Stay on top */
-                                width: 100%; /* Full width */
-                                transition: top 0.3s; /* Transition effect when sliding down (and up) */
-                                z-index: 1;
-                                transition: 0.5s;
-                              }
-                              #navbar li{
-                                display: block;
-                                }
-                              .navShadow{
-                                -webkit-box-shadow: 0 8px 6px -6px #999;
-                                -moz-box-shadow: 0 8px 6px -6px #999;
-                                box-shadow: 0 8px 6px -6px
-                              }
+                            .testiCreateAcc .picture {
+                                margin-left: 15%;
                             }
+                            @media (min-width:1100px){
+                                    .h2inside{
+                                        font-size: 26px;
+                                    }
+                                    .pinside,.inp3{
+                                        font-size: 16px;
+                                    }
+                                    .seedimg {
+                                        top: 17px;
+                                    }
+                                    .seedimg2{
+                                        top: 7px;
+                                    }
+                                    .figure{
+                                        width: 28%;
+                                        height:432px;
+                                    }
+                                    .inp1{
+                                        font-size: 10px;
+                                        top: 126px;
+                                    }
+                                    .inp2{
+                                        font-size: 20px;
+                                    }
+                                    .inp4,.inp5{
+                                        font-size: 15px;
+                                    }
+                                    .sproutimg{
+                                        top: 15px;
+                                    }
+                                    .treesimg{
+                                        top: 21px;
+                                    }
+                                    footer{
+                                        top: 2019px;
+                                    }
+
+
+
+
+                                @media (min-width:1250px){
+                                    footer {
+                                        top: 2100px;
+                                    }
+                                #navbar {
+                                    background-color: rgb(255, 255, 255); /* Black background color */
+                                    position: fixed !important; /* Make it stick/fixed */
+                                    top: 0; /* Stay on top */
+                                    width: 100%; /* Full width */
+                                    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+                                    z-index: 1;
+                                    transition: 0.5s;
+                                  }
+                                  #navbar li{
+                                    display: block;
+                                    }
+                                  .navShadow{
+                                    -webkit-box-shadow: 0 8px 6px -6px #999;
+                                    -moz-box-shadow: 0 8px 6px -6px #999;
+                                    box-shadow: 0 8px 6px -6px
+                                  }
+                                }
+                            }
+
                         }
                     }
                 }
