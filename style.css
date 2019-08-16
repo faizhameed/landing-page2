@@ -53,8 +53,8 @@ html::-webkit-scrollbar {
   .sqbg{
     position: absolute;
     left: 7%;
-    top: 43%;
-    width: 22%;
+    top: 319px;
+    width: 16%;
     transform: rotate(-202deg);
     opacity: .6;
     z-index: -1;
@@ -332,7 +332,6 @@ ul h5{
       .registerbtn{
         background-color: black;
         border:none;
-        top:75%;
         color: white;
         width: 45%;
         height: 31px;
@@ -670,6 +669,20 @@ ul h5{
             .slick-slider{
                 left:15%;
             }
+           .sqbg2{
+               top: 44%;
+           }
+           .sqbg3{
+            left: 87%;
+            top: 46%;
+           }
+           .sqbg4{
+               top: -18%;
+           }
+           .cirbg1{
+            left: 43%;
+            top: 48%;
+           }
             @media (min-width: 725px){
                 .slick-slider{
                     left:19%;
@@ -942,6 +955,18 @@ ul h5{
                         a{
                             cursor: pointer;
                         }
+                        .sqbg2{
+                            left: 43%;
+                            top: 48%;
+                        }
+                        .sqbg3 {
+                            left: 66%;
+                            top: 27%;
+                        }
+                        .sqbg5{
+                                left: 17%;
+                                top: -7%;
+                        }
                         @media (min-width:992px){
                             .Rectangle-47 div h5{
                                 font-weight: bolder;
@@ -1171,6 +1196,13 @@ ul h5{
                                     -moz-box-shadow: 0 8px 6px -6px #999;
                                     box-shadow: 0 8px 6px -6px
                                   }
+                                @media (min-width:1350px){
+                                        .planfigure {
+                                            width: 81%;
+                                            margin: 0px auto;
+                                        }
+
+                                    }
                                 }
                             }
 
