@@ -799,7 +799,6 @@ ul h5{
                         }
                         ::placeholder{
                             text-align: left;
-                            
                         }
                         .testimonial {
                             top: 1200px;
@@ -860,7 +859,7 @@ ul h5{
                             letter-spacing: normal;
                             color: #4e4e4e;
                             position: relative;
-                            top: 116px;
+                            top: 93px;
                             left: 45%;
                             width: 50%;
                         }
@@ -891,10 +890,10 @@ ul h5{
                             top: 45px;
                         }
                         .inp3{
-                            top:66px;
+                            top:97px;
                         }
                         .inp2{
-                            top:75px;
+                            top:53px;
                         }
                         .seedimg {
                             top: 27px;
@@ -1062,10 +1061,11 @@ ul h5{
                                     }
                                     .inp1{
                                         font-size: 10px;
-                                        top: 126px;
+                                        top: 90px;
                                     }
                                     .inp2{
                                         font-size: 20px;
+                                        top: 39px;
                                     }
                                     .inp4,.inp5{
                                         font-size: 15px;
@@ -1080,12 +1080,79 @@ ul h5{
                                         top: 2019px;
                                     }
                                 @media (min-width:1250px){
+                                    .maintitle h1{
+                                            font-size: 3.5rem;
+                                    }
+                                    .maintitle h2 {
+                                        font-size: 21px;
+                                    }
+                                    .section-3{
+                                        display: flex;
+                                        top: 868px;
+                                        flex-wrap: wrap;
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 492px;
+                                        background-color: rgba(190, 190, 190, 0.22);
+                                    }
 
+                                    .crAcc {
+                                        width: 42%;
+                                        background-color: transparent;
+                                        right: 0;
+                                        top: 935px;
+                                    }
 
+                                    .testiCreateAcc .picture {
+                                        margin-left: 2%;
+                                        top: 987px;
+                                    }
+                                    .testimonial {
+                                        top:987px;
+                                        width: 41%;
+                                        left: 21%;
+                                    }
+                                    .testimonial h2{
+                                        font-size: 35px;
+                                    }
+                                    .picture img{
+                                        width: 205px;
+                                        border-radius: 31px;
+                                    }
+                                    .section4 {
+                                        top: 1381px;
+                                    }
+                                    .figure {
+                                        width: 24%;
+                                        height: 579px;
+                                    }
+                                    .planfigure{
+                                        width: 90%;
+                                        margin: 0px auto;
+                                    }
+                                    .inp5 {
+                                        font-size: 18px;
+                                        top: 120px;
+                                    }
+                                    .inp3{
+                                        top: 147px;
+                                    }
+                                    .inp1{
+                                        top: 127px;
+                                    }
+                                    .inp2{
+                                        top: 84px;
+                                    }
+                                    .inp4 {
+                                        font-size: 18px;
+                                        top: 131px;
+                                    }
 
-                                    
                                     footer {
-                                        top: 2100px;
+                                        top: 2150px;
+                                    }
+                                    .copyright h5 {
+                                        font-size: 21px;
                                     }
                                 #navbar {
                                     background-color: rgb(255, 255, 255); /* Black background color */
