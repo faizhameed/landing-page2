@@ -291,15 +291,10 @@ ul h5{
         font-family: Roboto;
         text-align: center;
         font-size: 16px;
-      
         font-weight: normal;
-      
         font-style: normal;
-      
         font-stretch: normal;
-      
         line-height: 1.31;
-      
         letter-spacing: 0.32px;
     }
 
@@ -625,7 +620,7 @@ ul h5{
    
     /* Iphone 5 */
     
-    @media (min-width: 320px) and (max-width: 350px) {
+    @media (min-width: 320px) and (max-width: 370px) {
         .logo {
             top: 7px;
             left: 24px;
@@ -801,6 +796,10 @@ ul h5{
                         .crAccform input{
                             width:46%;
                             margin: 10px 2%;
+                        }
+                        ::placeholder{
+                            text-align: left;
+                            
                         }
                         .testimonial {
                             top: 1200px;
@@ -1080,11 +1079,11 @@ ul h5{
                                     footer{
                                         top: 2019px;
                                     }
-
-
-
-
                                 @media (min-width:1250px){
+
+
+
+                                    
                                     footer {
                                         top: 2100px;
                                     }
