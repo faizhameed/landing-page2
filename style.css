@@ -189,7 +189,7 @@ ul h5{
         line-height: 1.26;
         letter-spacing: normal;
         color: #ffffff;
-        background-color: #0093dd;
+        background-color: #c400ff;
         box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
     }
     .btn1reqdemo{
@@ -1301,3 +1301,21 @@ ul h5{
             }
         }
     }
+/* Testing */
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
