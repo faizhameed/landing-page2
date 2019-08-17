@@ -1075,6 +1075,10 @@ ul h5{
                             .copyright {
                                 padding: 12px 10px 9px;
                             }
+                            #navbarNav ul{
+                                right: -26px;
+                                position: absolute;
+                            }
                             @media (min-width:1100px){
                                     .h2inside{
                                         font-size: 26px;
@@ -1115,7 +1119,9 @@ ul h5{
                                     .copyright {
                                         padding: 12px 22px 9px;
                                     }
+                                    
                                 @media (min-width:1250px){
+
                                     .maintitle h1{
                                             font-size: 3.5rem;
                                     }
