@@ -91,7 +91,7 @@ html::-webkit-scrollbar {
 
 }
 
-.bg-light {
+.bg-white {
     z-index: 1;
 }
 .show{
@@ -567,13 +567,13 @@ ul h5{
     }
     
         
-.copyright{
-    width: 100%;
-    background-color: black;
-    color: white;
-    height: 50px;
-    padding: 5px 10px 5px;
-}
+    .copyright {
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 55px;
+        padding: 10px 10px 5px;
+    }
 .copyright h5{
     width: 100%;
     height: 26px;
@@ -695,20 +695,16 @@ ul h5{
                     .logos-company {
                         display: none;
                     }
-                    .companylogo{
-                        display: block;
-                    }
                     .logo {
                         right: 68%;
                     }
                     .companylogo{
                         display: flex;
-                        position: absolute;
-                        top: 733px;
+                        top: 658px;
                         background-position: center;
                         background-size: cover;
+                        justify-content: center;
                         overflow: hidden;
-                        width: 100%;
                     }
                     
                     .companylogo>img{
@@ -718,6 +714,25 @@ ul h5{
                          width:auto;
                          margin-left: 20px;
                     }
+                    .copyright {
+                        width: 100%;
+                        background-color: black;
+                        color: white;
+                        height: 65px;
+                        padding: 10px 10px 9px;
+                    }
+                .copyright h5{
+                    width: 100%;
+                    height: 26px;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    color: #9a9a9a;
+                }
                     @media (min-width:825px){
                         /* displaying the secondary heading here */
                         .maintitle h1{
@@ -1061,7 +1076,7 @@ ul h5{
                                 margin: 0px 10px;
                             }
                             .companylogo{
-                                top: 724px;
+                                top:655px;
                                 justify-content: center;
                             }
                             .testiCreateAcc .picture {
@@ -1110,6 +1125,13 @@ ul h5{
                                     }
                                     .maintitle h2 {
                                         font-size: 21px;
+                                    }
+                                    .companylogo{
+                                        justify-content: center;
+                                        top: 740px;
+                                    }
+                                    .companylogo>img{
+                                        height: 80px;
                                     }
                                     .section-3{
                                         display: flex;
