@@ -53,4 +53,4 @@ window.addEventListener("scroll",scrollHandle)
           .fadeIn(1000)
           .end()
           .appendTo('#slideshow');
-      }, 600000);
+      }, 3000);
