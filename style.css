@@ -214,15 +214,6 @@ ul h5{
         position: absolute;
         top: 84px;
     }
-
-    .companylogo{
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        background-position: center;
-        background-size: cover;
-        left:0px;       
-    }
     .slide{
         height: 55vw;
     }
@@ -635,6 +626,9 @@ ul h5{
     .psection4{
         font-size: 14px;
     }
+    footer {
+        top: 2169px
+    }
 }
     /* MOBILE CSS which is common on Desktop ENDS HERE */
 
@@ -700,7 +694,7 @@ ul h5{
                 .logo {
                     right: 60%;
                 }
-
+/* End of sliding logo */
                 @media (min-width:751px) {
                     .logos-company {
                         display: none;
@@ -710,7 +704,8 @@ ul h5{
                     }
                     .companylogo{
                         display: flex;
-                        top: 658px;
+                        position: absolute;
+                        top: 731px;
                         background-position: center;
                         background-size: cover;
                         justify-content: center;
@@ -1074,9 +1069,9 @@ ul h5{
                             .tree, .tree650 {
                                 margin: 0px 10px;
                             }
-                            .companylogo{
-                                top:655px;
-                                justify-content: center;
+                            .companylogo {
+                                top: 719px;
+                                left: 3%;
                             }
                             .testiCreateAcc .picture {
                                 margin-left: 15%;
@@ -1145,9 +1140,11 @@ ul h5{
                                     .maintitle h2 {
                                         font-size: 21px;
                                     }
-                                    .companylogo{
+                                    .companylogo {
                                         justify-content: center;
                                         top: 740px;
+                                        left: 0;
+                                        position: relative;
                                     }
                                     .companylogo>img{
                                         height: 80px;
