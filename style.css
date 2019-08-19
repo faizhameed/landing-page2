@@ -992,6 +992,9 @@ ul h5{
                                 left: 17%;
                                 top: -7%;
                         }
+                        /* .p1{
+                            text-align: justify;
+                        } */
                         @media (min-width:992px){
                             .Rectangle-47 div h5{
                                 font-weight: bolder;

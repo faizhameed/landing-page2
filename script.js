@@ -1,26 +1,9 @@
 const nav = document.getElementById('navbar');
-
 const scrollHandle=()=>{
     if(nav)
     window.scrollY>25?nav.classList.add("navShadow"):nav.classList.remove("navShadow");
 }
-
 window.addEventListener("scroll",scrollHandle)
-/* var docWidth = document.documentElement.offsetWidth;
-
-[].forEach.call(
-  document.querySelectorAll('*'),
-  function(el) {
-    if (el.offsetWidth > docWidth) {
-      console.log(el);
-    }
-  }
-);
- */
-/* var interval = setInterval(function() {
-          // method to be executed;
-          console.log("faiz");
-        }, 500); */
         $(document).ready(function(){
             $('.customer-logos').slick({
               slidesToShow: 6,
@@ -43,7 +26,7 @@ window.addEventListener("scroll",scrollHandle)
               }]
             });
           });
-      // **************************************************************
+      /* Fade in fade out testimonial */
       $("#slideshow > div:gt(0)").hide();
 
       setInterval(function() {
