@@ -330,21 +330,24 @@ ul h5{
         border-radius:4px;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     }
-    .testimonial{
+    .testimonial {
         position: absolute;
         top: 1375px;
         width: 100%;
     }
-    .testimonial>h2{
+    .testiHead {
+        position: absolute;
+        top: 1380px;
+        left: 34%;
         width: 100px;
         height: 25px;
         font-family: Roboto;
         font-size: 19px;
         font-weight: normal;
-        font-style: normal;     
-        font-stretch: normal;      
-        line-height: 1.32;     
-        letter-spacing: normal;    
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.32;
+        letter-spacing: normal;
         color: #000000;
         margin: 0 auto;
     }
@@ -533,9 +536,9 @@ ul h5{
     }
 
     /* footer */
-    footer{
+    footer {
         position: relative;
-        top: 2220px;
+        top: 2175px;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -626,8 +629,11 @@ ul h5{
     .psection4{
         font-size: 14px;
     }
+    .section4 {
+        top: 1760px;
+    }
     footer {
-        top: 2169px
+        top: 2379px;
     }
 }
     /* MOBILE CSS which is common on Desktop ENDS HERE */
@@ -659,6 +665,9 @@ ul h5{
             }
             .logo{
                 right:30%;
+            }
+            .testiHead {
+                left: 43%;
             }
             .figure {
                 width: 30%;
@@ -826,7 +835,7 @@ ul h5{
                             left: 50%;
                             margin-right: 10%;
                         }
-                        .testimonial h2{
+                        .testiCreateAcc h2{
                             font-family: Roboto;
                             font-size: 19px;
                             font-weight: bolder;
@@ -835,6 +844,11 @@ ul h5{
                             line-height: 1.32;
                             color: #4e4e4e;
                         }
+                        .testiHead{
+                            top: 1210px;
+                            left: 66%
+                        }
+                     
                         .testiCreateAcc{
                             display:flex;
                             width: 100%;
@@ -845,8 +859,12 @@ ul h5{
                             top: 1200px;
                             margin-left: 10%;
                         }
-                        .section4{
-                            top: 1450px;
+                        .picture img{
+                            width: 205px;
+                            border-radius: 31px;
+                        }
+                        .section4 {
+                            top: 1480px;
                         }
                         .inverted1{
                             display: block;
@@ -858,7 +876,7 @@ ul h5{
                         .inverted2{
                             display: block;
                             position: absolute;
-                            top: 100%;
+                            top: 194%;
                             left: 81%;
                         }
                         .figure{
@@ -1076,11 +1094,17 @@ ul h5{
                             .testiCreateAcc .picture {
                                 margin-left: 15%;
                             }
+                            .inverted2 {
+                                top: 158%;
+                            }
                             .copyright {
                                 padding: 12px 10px 9px;
                             }
                           
                             @media (min-width:1100px){
+                                .section4 {
+                                    top: 1450px;
+                                }
                                     .h2inside{
                                         font-size: 26px;
                                     }
@@ -1130,8 +1154,12 @@ ul h5{
                                         right: -26px;
                                         position: absolute;
                                     }
-                                    .testimonial h2 {
+                                    .testiCreateAcc h2 {
                                         line-height: 0.32;
+                                    }
+                                    .testiHead{
+                                        top: 987px;
+                                        left: 35%;
                                     }
 
                                     .maintitle h1{
@@ -1175,12 +1203,15 @@ ul h5{
                                         width: 41%;
                                         left: 21%;
                                     }
-                                    .testimonial h2{
+                                    .testiCreateAcc h2{
                                         font-size: 35px;
                                     }
                                     .picture img{
                                         width: 205px;
                                         border-radius: 31px;
+                                    }
+                                    .inverted2 {
+                                        top: 142%;
                                     }
                                     .section4 {
                                         top: 1381px;
@@ -1286,6 +1317,9 @@ ul h5{
                                             width: 67%;
                                             margin: 55px auto 0px;
                                         }
+                                        .inverted2 {
+                                            top: 121%;
+                                        }
 
                                     }
                                     }
@@ -1300,19 +1334,3 @@ ul h5{
     }
 /* Testing */
 
-#slideshow {
-    margin: 80px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  }
-  
-  #slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-  }
