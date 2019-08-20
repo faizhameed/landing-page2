@@ -659,6 +659,9 @@ ul h5{
         .psection4{
             font-size: 23px;
         }
+        .h1section4 {
+            font-size: 34px;
+        }
         @media (min-width: 651px){
             .tree650{
                 display: block;
@@ -678,6 +681,9 @@ ul h5{
             }
             .slick-slider{
                 left:15%;
+            }
+            .h1section4 {
+                font-size: 39px;
             }
            .sqbg2{
                top: 44%;
@@ -828,6 +834,11 @@ ul h5{
                         }
                         ::placeholder{
                             text-align: left;
+                        }
+                        .alert{
+                            position: absolute;
+                            top: 206px;
+                            left: 114px;
                         }
                         .testimonial {
                             top: 1200px;
@@ -1105,6 +1116,11 @@ ul h5{
                             }
                           
                             @media (min-width:1100px){
+                                .alert {
+                                    position: absolute;
+                                    top: 206px;
+                                    left: 241px;
+                                }
                                 .section4 {
                                     top: 1450px;
                                 }
@@ -1196,7 +1212,13 @@ ul h5{
                                         right: 0;
                                         top: 935px;
                                     }
-
+                                    .alert {
+                                        position: absolute;
+                                        top: 189px;
+                                        left: 155px;
+                                        border: none;
+                                        background: transparent;
+                                    }
                                     .testiCreateAcc .picture {
                                         margin-left: 2%;
                                         top: 987px;
@@ -1304,6 +1326,9 @@ ul h5{
                                     box-shadow: 0 8px 6px -6px
                                   }
                                 @media (min-width:1350px){
+                                        .alert{
+                                            left: 177px;
+                                        }
                                         .planfigure {
                                             width: 81%;
                                             margin: 0px auto;
@@ -1313,6 +1338,9 @@ ul h5{
                                         }
                                        
                                     @media (min-width:1650px){
+                                        .alert {
+                                            left: 239px;
+                                        }
                                         .Rectangle-47 div {
                                             padding: 0px 8%;
                                         }
@@ -1323,7 +1351,11 @@ ul h5{
                                         .inverted2 {
                                             top: 121%;
                                         }
-
+                                        @media (min-width:1800px){
+                                            .alert {
+                                                left: 278px;
+                                            }
+                                        }
                                     }
                                     }
                                 }
