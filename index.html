@@ -26,34 +26,36 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link ISM" href="#">ISM<span class="sr-only">(current)</span></a>
+                          <a class="nav-link ISM" href="https://www.corefactors.in/integrated-sales-marketing">ISM<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link pricing" href="#">Pricing</a>
+                          <a class="nav-link pricing" href="#" onclick = "return false" onmousedown="autoScrollTo('section4');" >Pricing</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link pricing" href="#" style="text-decoration: underline;color:black">Try Teleduce</a>
+                          <a class="nav-link pricing" href="https://www.corefactors.in/free-trial.html?utm_source=web-index&utm_medium=web&utm_campaign=start_your_free_trial" style="text-decoration: underline;color:black">Try Teleduce</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link blog" href="#">Blog</a>
+                          <a class="nav-link blog" href="https://www.corefactors.in/blog/">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="#">Contact Us<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link signup" href="#">Sign Up</a>
+                            <a class="nav-link contact" href="https://www.corefactors.in/contact">Contact Us<span class="sr-only">(current)</span></a>
                         </li>
                         <h5>Follow Us</h5>
                         <div class="social-icons">
-                          <li><img class="fbicon" src = './assets/facebook-square.svg' alt = 'facebook'></li>
-                          <li><img class="lnicon" src = './assets/linkedin-logo.svg' alt = 'linkedin'></li>
-                          <li><img class="instaicon" src = './assets/instagram.svg' alt = 'instagram'></li>
+                          <li ><a href="https://www.facebook.com/corefactors.in/">
+                            <img  class="fbicon" src = './assets/facebook-square.svg' alt = 'facebook'>
+                          </a></li>
+                          <li ><a href = "https://www.linkedin.com/company/adnaksmarketingsolutionsprivatelimited/">
+                            <img  class="lnicon" src = './assets/linkedin-logo.svg' alt = 'linkedin'>
+                          </a></li>
+                          <li ><a href="https://www.instagram.com/corefactors/"><img class="instaicon" src = './assets/instagram.svg' alt = 'instagram'></a>
+                            </li>
                         </div>
                       </ul>
                      
                     </div>
                     <img src="./companyLogo/logo-blue.png" alt="corefactors" class="logo990px">
-                    <a class="login" href="#">Login</a>
+                    <a class="login" href="https://teleduce.corefactors.in/">Login</a>
                   </nav>
     </header>
     <!-- Testing -->
@@ -84,9 +86,10 @@
     <div class="maintitleTab">
       <h1>A Simple Tool. Made For You To Rule.</h1>
     </div>
-    <div class="btn1"><button class="btn1create" id="createaccount">Create Free Account</button>
-        <button class="btn1reqdemo">Request a Demo</button></div>
-    </div>
+    <div class="btn1"><a href="#" onclick = "getFocus()" onmousedown="autoScrollTo('section3');" class="btn1create" id="createaccount">Create Free Account</a href="#">
+        <a class="btn1reqdemo" href = 'https://www.corefactors.in/demo-scheduler.html?utm_source=web-index&utm_medium=web&utm_campaign=schedule_demo'>Request a Demo</a>
+      </div>
+    
 
     <!-- Trees -->
     <div class="trees">
@@ -123,7 +126,7 @@
       <img  src="./assets/unnamed-25@3x.png" alt="Wipro">
       <img  src="./assets/unnamed-13@3x.png" alt="Ujivan">
           </div>
-          <div class="section-3"></div>
+          <div id = 'section3' class="section-3"></div>
             <!-- Create Your Free Acc -->
             <div class="crAcc"><h3>Create Your Free Account</h3>
                 <form class= 'crAccform' action="Submit" id="trial-form" name="trial-form" method="post">
@@ -134,7 +137,7 @@
 							  
 								</div>
 
-                    <input type="text" placeholder="First Name" id="name">
+                    <input type="text" placeholder="First Name" id="firstName">
                     <input type="text" placeholder="Last Name">
                     <input type="text" placeholder="Email" id="email">
                     <input type="text" placeholder="Mobile No" id="mobile">
@@ -169,7 +172,7 @@
       </div>
    </div> -->
 
-   <div id="slideshow">
+   <div class="slideshow" id="slideshow">
      <!-- Testimonial1 -->
                  <div>
                    <div class="picture"><img src="./testimonial Images/Vmedo.jpg"></div>
@@ -230,7 +233,7 @@
           
 
     <!-- Plans -->
-    <div class="section4 container-fluid">
+    <div id="section4" class="section4 container-fluid">
       <div id="bgst1" >
           <img class="sqbg1" src="./svgfilesforlandingpage_/background/noun_square_1860906.svg" alt="square">
           <img class="sqbg2" src="./svgfilesforlandingpage_/background/noun_square_1860906.svg" alt="square">

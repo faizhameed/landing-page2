@@ -37,3 +37,27 @@ window.addEventListener("scroll",scrollHandle)
           .end()
           .appendTo('#slideshow');
       }, 3000);
+
+
+
+
+    /*   $('.slideshow').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:false,
+      }); */
+
+      /* scroll to doc */
+
+      function autoScrollTo(el) {
+        var top = $("#" + el).offset().top;
+        $("html, body").animate({ scrollTop: top }, 1000);
+    }
+
+    const getFocus=() =>{
+      var a = document.getElementById("firstName");
+      a.focus();
+    }
+    

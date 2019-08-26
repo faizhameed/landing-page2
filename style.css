@@ -115,7 +115,9 @@ html::-webkit-scrollbar {
 }
 .social-icons li{
     margin: 5px 5px;
+    cursor: pointer;
 }
+
 ul h5{
     margin-top: 33px;
 }
@@ -209,6 +211,10 @@ ul h5{
         color: white;
         box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
         background-color: #bebebe;
+    }
+   a:hover {
+        color: #fdfdfd;
+        text-decoration: none;
     }
     .logos-company{
         position: absolute;
