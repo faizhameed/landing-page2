@@ -295,7 +295,21 @@ ul h5{
         line-height: 1.31;
         letter-spacing: 0.32px;
     }
-
+    input:focus {
+        background-color: rgb(255, 255, 255);
+      }
+      input:focus::-webkit-input-placeholder {
+        color: rgb(141, 141, 141);
+    }
+    input:focus:-moz-placeholder {
+        color: rgb(141, 141, 141);
+    }
+    input:focus::-moz-placeholder {
+        color: rgb(141, 141, 141);
+    }
+    input:focus:-ms-input-placeholder {
+        color: rgb(141, 141, 141);
+    }
     .u1{
         display:flex;
         width: 100%;
