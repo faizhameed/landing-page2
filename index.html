@@ -38,7 +38,7 @@
                           <a class="nav-link blog" href="https://www.corefactors.in/blog/">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="https://www.corefactors.in/contact">Contact Us<span class="sr-only">(current)</span></a>
+                            <a class="nav-link contact" href="https://www.corefactors.in/contact">Contact us<span class="sr-only">(current)</span></a>
                         </li>
                         <h5>Follow Us</h5>
                         <div class="social-icons">
@@ -179,8 +179,7 @@
                    <div class="testimonial">
                    <p><br>No doubt Teleduce is an excellent product for startup like us,
                            one thing that I admire the most about corefactors is 
-                           their support and client relationship. <br><br>Praveen Gowdru<br>CEO and Co founder
-                           VMEDO
+                           their support and client relationship. <br><br>Praveen Gowdru<br>CEO and Co founder, VMEDO
                        </p>
                        <img class="inverted1" src="./svgfilesforlandingpage_/noun_inverted commas_1925518.svg" alt="inverted">
                        <img class="inverted2" src="./svgfilesforlandingpage_/noun_inverted commas_19255181.svg" alt="inver">    
@@ -193,7 +192,7 @@
                      <div class="testimonial">
                      <p><br>We are using the SMS gateway services from corefactors for our banking operations. 
                        The services and support from Corefactors team is very good. 
-                       Turnaround time for issue resolution is commendable.<br><br>Mr Madhu <br> Manager IT,Ujjivan Bank Limited
+                       Turnaround time for issue resolution is commendable.<br><br>Mr Madhu <br> Manager IT, Ujjivan Bank Limited
                          </p>
                          <img class="inverted1" src="./svgfilesforlandingpage_/noun_inverted commas_1925518.svg" alt="inverted">
                          <img class="inverted2" src="./svgfilesforlandingpage_/noun_inverted commas_19255181.svg" alt="inver">    
@@ -382,13 +381,13 @@
 			$("#form_success").attr("style","display:none").html('');
 			var to_list=[
 				{"email_id":"nagarjunan.d@corefactors.in","name":"Naga"}]
-			var accname = $('#name').val();
+			var accname = $('#firstName').val();
 			var accemail = $('#email').val();
 			var accmobile = $('#mobile').val();
 			var acccompany = $('#company_name').val();
 			if (accname == ""){
 				$("#form_error").html("Please enter your <strong>Name</strong>").attr("style","");;
-				$('#name').focus().attr("style","border-color:red");
+				$('#firstName').focus().attr("style","border-color:red");
 				$(this).attr("disabled",false);
 		//		$(window).scrollTop($('#form_error').offset().top);
 				$('html, body').animate({
@@ -398,7 +397,7 @@
 			}
 			else{
 				//$("#form_error").html("").css("display","none");
-				$('#name').attr("style","");
+				$('#firstName').attr("style","");
 			}
 			if (accemail == ""){
 				$("#form_error").html("Please enter your <strong>Email</strong>").attr("style","");
@@ -475,7 +474,7 @@
                     type: "POST",
                     dataType: "json",
                     data: {
-                        name: $("#name").val(),
+                        name: $("#firstName").val(),
                         username: $("#email").val(),
                         mobile: $("#mobile").val(),
                         email: $("#email").val(),
