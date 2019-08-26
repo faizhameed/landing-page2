@@ -530,6 +530,7 @@ ul h5{
         margin: 0 auto;
         position: relative;
         bottom: 42px;
+        cursor: pointer;
     }
     .inp2{
         position: relative;
