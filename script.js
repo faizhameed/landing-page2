@@ -52,12 +52,19 @@ window.addEventListener("scroll",scrollHandle)
       /* scroll to doc */
 
       function autoScrollTo(el) {
-        var top = $("#" + el).offset().top;
-        $("html, body").animate({ scrollTop: top }, 1000);
+        if(el!=='section3')
+       { var top = $("#" + el).offset().top;
+        $("html, body").animate({ scrollTop: top }, 1000);}
     }
 
     const getFocus=() =>{
       var a = document.getElementById("firstName");
       a.focus();
+      var top = $("#" + 'section3').offset().top;
+      if(window.innerWidth<1250)
+      {
+        top=top+700
+      }
+      $("html, body").animate({ scrollTop: top}, 1000);
     }
     
