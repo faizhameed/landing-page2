@@ -644,7 +644,14 @@ ul h5{
     }
 }
     /* MOBILE CSS which is common on Desktop ENDS HERE */
-
+@media (min-width:371px) and (max-width:485px){
+    .section4 {
+        top: 1760px;
+    }
+    footer {
+        top: 2379px;
+    }
+}
     @media (min-width: 525px){
         .logo{
             right:25%;
