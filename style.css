@@ -1397,3 +1397,6 @@ ul h5{
     }
 /* Testing */
 
+.hidden{
+    display: none
+}

@@ -28,6 +28,10 @@ window.addEventListener("scroll",scrollHandle)
           });
       /* Fade in fade out testimonial */
      
+      $(document).ready(function() {
+        $("div#testiCA").removeClass("hidden");
+    });
+
       $("#slideshow > div:gt(0)").hide();
 
       setInterval(function() {
