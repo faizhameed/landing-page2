@@ -27,6 +27,7 @@ window.addEventListener("scroll",scrollHandle)
             });
           });
       /* Fade in fade out testimonial */
+     
       $("#slideshow > div:gt(0)").hide();
 
       setInterval(function() {
