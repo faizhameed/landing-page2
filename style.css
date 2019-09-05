@@ -392,7 +392,8 @@ ul h5{
         position: absolute;
         top: 1600px;
         text-align: center;
-        padding-top: 45px;   
+        padding-top: 45px;  
+        overflow: hidden; 
     }
     .planfigure{
         display: flex;
@@ -1248,7 +1249,7 @@ ul h5{
                                         background: transparent;
                                     }
                                     .testiCreateAcc .picture {
-                                        margin-left: 2%;
+                                        margin-left: 5%;
                                         top: 987px;
                                     }
                                     .testimonial {
@@ -1295,7 +1296,8 @@ ul h5{
                                         top: 131px;
                                     }
                                     #bgst1 {
-                                        right: 3%;
+                                        right: 0%;
+                                        width: 106%;
                                     }
                                     .sqbg1 {
                                         top: -3%;
@@ -1348,11 +1350,11 @@ ul h5{
                                   #navbar li{
                                     display: block;
                                     }
-                                  .navShadow{
-                                    -webkit-box-shadow: 0 8px 6px -6px #999;
-                                    -moz-box-shadow: 0 8px 6px -6px #999;
-                                    box-shadow: 0 8px 6px -6px
-                                  }
+                                    .navShadow {
+                                        -webkit-box-shadow: 0 8px 6px -6px #999;
+                                        -moz-box-shadow: 0 8px 6px -6px #999;
+                                        box-shadow: 0 2px 15px -1px #eeeeee;
+                                    }
                                 @media (min-width:1350px){
                                         .alert{
                                             left: 177px;
