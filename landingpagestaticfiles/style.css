@@ -466,7 +466,7 @@ ul h5{
 
     /* .planfigure+ */.h1section4{
       font-family: Roboto;
-      font-size: 39px;
+      font-size: 21px;
       font-weight: bolder;
       font-style: normal;
       font-stretch: normal;
@@ -637,6 +637,9 @@ ul h5{
     /* Iphone 5 */
     
     @media (min-width: 320px) and (max-width: 370px) {
+        .h1section4{
+            font-size: 17px;
+        }
         .logo {
             top: 7px;
             left: 24px;
@@ -655,7 +658,7 @@ ul h5{
         top: 1760px;
     }
     footer {
-        top: 2379px;
+        top: 2275px;
     }
 }
     /* MOBILE CSS which is common on Desktop ENDS HERE */
@@ -689,7 +692,7 @@ ul h5{
             font-size: 23px;
         }
         .h1section4 {
-            font-size: 34px;
+            font-size: 32px;
         }
         @media (min-width: 651px){
             .tree650{
