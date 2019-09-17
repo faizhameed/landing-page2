@@ -59,13 +59,17 @@ html::-webkit-scrollbar {
     opacity: .6;
     z-index: -1;
   }
+  #mobileLogo{
+    top: 10px;
+    right: 5vw;
+  }
+  
   .logo{
-    position: relative;
     display: block;
     width: 160px;
     height: 41.2px;
     margin: 0 auto;
-    top:10px;
+   
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url("svgfilesforlandingpage_/menu/noun_menu_933313.svg");
@@ -133,7 +137,7 @@ ul h5{
     font-stretch: normal;
     line-height: 1.13;
     letter-spacing: normal;
-    color: #bebebe;
+    color: #818181;
     z-index: 2;
     top: 33px;
     right: 15px;
@@ -193,6 +197,12 @@ ul h5{
         color: #ffffff;
         background-color: #c400ff;
         box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
+        transition: .25s;
+    }
+    .btn1create:hover{
+        background-color: #ffffff;
+        color: #c400ff;
+        border: 2px solid #c400ff;
     }
     .btn1reqdemo{
         border-radius: 5px;
@@ -211,9 +221,14 @@ ul h5{
         color: white;
         box-shadow: 2px 1px 8px 0 rgba(255, 255, 255, 0.44);
         background-color: #bebebe;
+        transition: .25s;
+    }
+    .btn1reqdemo:hover{
+        background-color: #ffffff;
+        color: #868686;
+        border: 2px solid #bebebe;
     }
    a:hover {
-        color: #fdfdfd;
         text-decoration: none;
     }
     .logos-company{
@@ -466,7 +481,7 @@ ul h5{
 
     /* .planfigure+ */.h1section4{
       font-family: Roboto;
-      font-size: 21px;
+      font-size: 23px;
       font-weight: bolder;
       font-style: normal;
       font-stretch: normal;
@@ -603,6 +618,12 @@ ul h5{
     letter-spacing: normal;
     color: #9a9a9a;
 }
+.copyright h5 a{
+    color: #9a9a9a;
+}
+.copyright h5 a:hover{
+    color: #0092dd;
+}
     
 
       html {
@@ -640,10 +661,7 @@ ul h5{
         .h1section4{
             font-size: 17px;
         }
-        .logo {
-            top: 7px;
-            left: 24px;
-        }
+        
         .inp3{
             font-size: 3vw;
             width: 64%;
@@ -770,7 +788,7 @@ ul h5{
                         padding: 4px 10px 9px;
                     }
                 .copyright h5{
-                    font-size: 18px; 
+                    font-size: 16px; 
                 }
                     @media (min-width:825px){
                         /* displaying the secondary heading here */
@@ -789,6 +807,10 @@ ul h5{
                            top: 200px;
                            width: 100%;
                            justify-content: center;
+                        }
+                        #mobileLogo {
+                            top: 10px;
+                            right: 3vw;
                         }
                         .maintitleTab h1{
                             text-align: center;
@@ -1052,6 +1074,9 @@ ul h5{
                                 top: 4px;
                                 left: 10px;
                                 z-index: 1;
+                            }
+                            #mobileLogo{
+                                opacity: 0;
                             }
                             .login{
                                 font-size: 16px;
@@ -1339,7 +1364,7 @@ ul h5{
                                         top: 2150px;
                                     }
                                     .copyright h5 {
-                                        font-size: 21px;
+                                        font-size: 18px;
                                     }
                                 #navbar {
                                     background-color: rgb(255, 255, 255); /* Black background color */
